@@ -1,0 +1,40 @@
+/* element selector */
+div{
+    background-color: rgb(239, 239, 228);
+}
+/* class selector */
+.red{
+    background-color: red;
+}
+/* id selector */
+#green{
+    background-color: green;
+}
+
+/* descendant selector */ 
+/* div ke baad kuch bhi ho but p tag hona chahiye bs  */
+div p{
+    color: rgb(161, 117, 121);
+    background-color: rgb(163, 13, 13);
+}
+/* child selector */ 
+/* after div hona chhaiye , bich m koi bhi tag nhi aana chahiye */
+div>p{
+    color: blue;
+    background-color: brown;
+}
+/* universal selector */
+*{
+    margin: 0;
+    padding: 0;
+}
+/* Pseudo selector */
+a:visited{
+    color: rgb(44, 44, 40);
+}
+a:active{
+    background-color: green;
+}
+a:hover{
+    background-color: pink;
+}
